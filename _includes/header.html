@@ -87,6 +87,12 @@
 - /lib/jquery-lightbox/jquery.lightbox-0.5.min.js
 {% endbundle %}
 {% endif %}
+{% if page.qrcode %}
+{% bundle %}
+- /lib/jquery.qrcode.min.js
+- /lib/xcsoar-qrcode.js
+{% endbundle %}
+{% endif %}
 
 {% if page.forum %}
   <!--

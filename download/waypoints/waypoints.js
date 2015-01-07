@@ -62,8 +62,10 @@ for (var country in sorted_waypoints) {
         info.open(map, this);   
     });
 
-    var map_list_info = "<hr/><h2>" + sorted_waypoints[country][0] + "</h2><br/><a href=\"http://download.xcsoar.org/waypoints/" + 
-                        sorted_waypoints[country][0] + ".cup\" type='application/octet-stream'>Download</a> (" + file_info['size'] + " waypoints)<br/><br/>";
+    var map_list_info = "<div><h2>" + sorted_waypoints[country][0] + "</h2><p><a href=\"http://download.xcsoar.org/waypoints/" +
+                        sorted_waypoints[country][0] + ".cup\" type='application/octet-stream'>Download</a> (" + file_info['size'] + " waypoints)</p></div>"+
+                        "</div>";
 
     $("#wp_list").append(map_list_info);
 }
+
