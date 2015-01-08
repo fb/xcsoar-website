@@ -265,12 +265,12 @@ ul#downloads a:active {
 
 /* WAYPOINT DOWNLOADS */
 
-#wp_list div {
+#wp_list div, #map_list div {
   border-top: 1px dotted;
   padding: 20px 0px 20px 0px;
 }
 
-#wp_list p {
+#wp_list p, #map_list p {
   padding-top: 10px;
 }
 
